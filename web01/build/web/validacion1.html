@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script>
+            
+            document.addEventListener("DOMContentLoaded",function(){
+                document.getElementById("formulario").addEventListener('submit',validarFormulario);
+            });
+            function validarFormulario(evento){
+                evento.preventDefault();
+                
+                var usuario= document.getElementById("usuario").value;                             
+                if(usuario.length==0){
+                    alert("No se ha ingresado el usuario");
+                    return;
+                }
+                
+                var clave= document.getElementById("clave").value;                            
+                if(clave.length<6){
+                    alert("El formato de la clave es incorrecto");
+                    return;
+                }
+                
+                this.submit();
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+        <form action="ejemplobootstrap.html" id="formulario">
+            <p>
+                Usuario: <input type="text" name="usuario" id="usuario">
+            </p>
+            <p>
+                Clave: <input type="password" name="clave" id="clave">
+            </p>
+            <input type="submit" value="Entrar">
+        </form>
+    </body>
+</html>

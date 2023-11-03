@@ -1,0 +1,10 @@
+#idDiv{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    display: block;
+}
+body{
+    height: 100%;
+    width: 98%;
+}

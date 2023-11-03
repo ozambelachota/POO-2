@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+
+Trabajndo con JavaScript
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script>
+            function interruptor(){
+                var elem=document.getElementById('divscript');
+                if(elem.style.display=='block')
+                    elem.style.display='none';
+                else
+                    elem.style.display='block';
+            }
+
+            var text=prompt('Ingrese su Nombre');
+            alert(text);
+            console.log(text);
+            if(confirm('¿Desea salir Del Programa?'))
+                alert('Usted ah salido del programa')
+            else
+                alert('Usted no ha salido del programa')
+            
+            
+        </script>
+        
+    </head>
+    <body>
+        <input type="button" value="Mostrar" onclick="interruptor()">
+        
+        <div id="divscript">
+            Buenas noches
+        </div>
+    </body>
+</html>
