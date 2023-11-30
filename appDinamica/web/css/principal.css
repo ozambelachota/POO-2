@@ -1,0 +1,49 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    background-image:url(../../imagenes/inicio/piedra2.png);
+    /*background-color:#EEf2F2;*/
+    background-repeat: repeat;
+}
+#cuadropincipal{
+    width:1024px;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #6F9;
+}
+#cuadromenu {
+    width:900px;
+    height:114px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:7px;
+}
+#cuadropie {
+    width:900px;
+    height:200px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+#texte{
+    width:1024px;
+    height:100%;
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:3px;
+    padding-bottom:14px;
+    background-color:#C93;/*color Ocre*/
+}
+#show{
+    width:100%;
+    height:100%;
+}

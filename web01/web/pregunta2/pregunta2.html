@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="input-wrapper">
+          <label for="tipoDocumento">Tipo de documento</label>
+          <select id="tipoDocumento">
+            <option value="0">Elegir tipo de documento</option>
+            <option value="1">pdf</option>
+            <option value="2">word</option>
+          </select>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="numeroDocumento">Número de documento</label>
+          <input type="text" id="numeroDocumento" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="expediente">numero de expediente</label>
+          <input type="text" id="expediente" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="sumillaDocumento">Sumilla de documento</label>
+          <input type="text" id="sumillaDocumento" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="fechaIngresoPP">Fecha de ingreso a PP</label>
+          <input type="date" id="fechaIngresoPP" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="archivoDocumento">Archivo de documento</label>
+          <input type="file" id="archivoDocumento" />
+        </div>
+        <div class="container_btn">
+          <button class="btn-primary">Guardar</button>
+          <button class="btn-seocndary">Cancelar</button>
+        </div>
+      </form>
+      <script src="main.js"></script>
+    </main>
+  </body>
+</html>
